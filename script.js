@@ -13,7 +13,7 @@ const searchResultsDiv = document.getElementById('searchResults');
 function fetchImg(keyword) {
   fetch(`https://api.pexels.com/v1/search?query=${keyword}`, {
     headers: {
-      Authorization: "tpD4eM4thisxTD1SmStOomgB606Nm2CtgPMGIXgTDlMeoYaNi5Qs2EPQ"
+      Authorization: "la mia chiave" 
     }
   })
   .then (resp => resp.json())
